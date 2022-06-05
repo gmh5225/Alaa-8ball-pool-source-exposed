@@ -15,5 +15,5 @@ How to use:
 
 I dont know if you need to update offsets anyway.
 
-UPDATEDS:
+UPDATES:
 V1.0 -> Posted This
