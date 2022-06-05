@@ -12,3 +12,8 @@ How to use:
 1. Open the sln file
 2. Put Relase x64
 3. do CTRL+B
+
+I dont know if you need to update offsets anyway.
+
+UPDATEDS:
+V1.0 -> Posted This
