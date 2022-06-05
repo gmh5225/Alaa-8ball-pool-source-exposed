@@ -20,7 +20,7 @@
 
 #include "D2DOverlay/DirectOverlay.h"
 
-#pragma comment(lib, "D2DOverlay/lib/x86/D2DOverlay.lib")
+#pragma comment(lib, "D2DOverlay/D2DOverlay.lib")
 
 namespace AEngineRenderWindow
 {

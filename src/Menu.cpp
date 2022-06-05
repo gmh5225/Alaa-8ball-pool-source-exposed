@@ -24,7 +24,7 @@ void CleanupDeviceD3D();
 void ResetDevice();
 LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-constexpr auto* windowName      = _T("Menu");
+constexpr auto* windowName      = _T("Fixed by AC");
 constexpr auto* windowClassName = _T("unknown");
 
 namespace gFonts
@@ -169,14 +169,6 @@ void Menu::runLoop()
 
             ImGui::End();
         }
-
-        ImGui::GetBackgroundDrawList()->AddRectFilledMultiColor(
-            zeroImVec2,
-            ImGui::GetIO().DisplaySize,
-            ImColor(100, 10, 255, 100),
-            ImColor(255, 0, 255, 255),
-            ImColor(255, 255, 0, 255),
-            ImColor(0, 255, 255, 255));
 
         ImGui::EndFrame();
         g_pd3dDevice->SetRenderState(D3DRS_ZENABLE, FALSE);
